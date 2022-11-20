@@ -1,14 +1,12 @@
+/* Um programa em C (versão númerica do jogo Wordle) no qual o objetivo do usuário é acertar um número inteiro positivo com entre
+0 e 99999 gerado aleatoriamente pelo programa. Utilizou-se o básico da lingugem C (sem a utilização de vetores, por exemplo)*/
+
+
 #include <stdio.h>
- int main()
+
+
+int main()
  {
-     /***************************************************************/
-/**                                                           **/
-/**  Fernando F. Miqueletti N�mero USP:12544340               **/
-/**   Exerc�cio-Programa 0                                    **/
-/**   Professor:Yoshiharu Kohayakawa                          **/
-/**   Turma: 3                                                **/
-/**                                                           **/
-/***************************************************************/
      int semente, senha, t, chute, dsenha1, dsenha2, dsenha3, dsenha4, dsenha5, dchute1, dchute2, dchute3, dchute4, dchute5, senhamod, chutemod, dcerto1 = 11, dcerto2 = 12 , dcerto3 = 13 , dcerto4 = 14, dcerto5 ;
      printf("Bem vinda(o) ao Numle\n");
      printf("Digite a semente para sortear a senha (0 a 10000):");
