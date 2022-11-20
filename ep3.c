@@ -1,11 +1,9 @@
-/***************************************************************/
-/**                                                           **/
-/**  Fernando F. Miqueletti N�mero USP:12544340               **/
-/**   Exerc�cio-Programa 3                                    **/
-/**   Professor:Yoshiharu Kohayakawa                          **/
-/**   Turma: 3                                                **/
-/**                                                           **/
-/***************************************************************/
+/*Neste programa foi implementado  um programa para encontrar
+todas as possibilidades de posicionar N “rainhas especiais” em um tabuleiro
+de xadrez generalizado, com N linhas e N colunas. A condição exigida é que
+nenhuma das N rainhas especiais ataque outra. Além disso, foi preciso
+computar, dentre todas as configurações possíveis, quantas vezes cada rainha
+especial aparece em cada posição do tabuleiro.*/
 
 
 #include <stdio.h>
