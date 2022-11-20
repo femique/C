@@ -1,11 +1,4 @@
-/***************************************************************/
-/**                                                           **/
-/**  Fernando F. Miqueletti Número USP:12544340               **/
-/**   Exercício-Programa 0                                    **/
-/**   Professor:Yoshiharu Kohayakawa                          **/
-/**   Turma: 3                                                **/
-/**                                                           **/
-/***************************************************************/
+/*CÃ³digo basico em C, jogo de acertar um nÃºmero (de 0 a 9) gerado pelo computador*/
 
 
 
