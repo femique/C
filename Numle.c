@@ -22,14 +22,14 @@ int main()
      senhamod = senhamod / 10;
      dsenha3 = senhamod % 10;
      senhamod = senhamod / 10;
-      dsenha2 = senhamod % 10;
-      senhamod = senhamod / 10;
-      dsenha1 = senhamod % 10;
+     dsenha2 = senhamod % 10;
+     senhamod = senhamod / 10;
+     dsenha1 = senhamod % 10;
 
      while (t-- > 0) {
         printf ("\nDigite a tentativa (0 a 99999):");
         scanf("%d", &chute);
-       chutemod = chute;
+        chutemod = chute;
         dchute5 = chutemod % 10;
         chutemod = chutemod / 10;
         dchute4 = chutemod % 10;
@@ -69,27 +69,27 @@ int main()
         }
 
         if ( dchute1 != dsenha1 && dchute1 != dcerto2 && dchute1 != dcerto3 && dchute1 != dcerto4 && dchute1 != dcerto5 ){
-                 if ( dchute1 == dsenha2 || dchute1 == dsenha3 || dchute1 == dsenha4 || dchute1 == dsenha5 ) {
-                 printf("Primeiro digito em posicao incorreta.\n");
+            if ( dchute1 == dsenha2 || dchute1 == dsenha3 || dchute1 == dsenha4 || dchute1 == dsenha5 ) {
+                printf("Primeiro digito em posicao incorreta.\n");
                  }
         }
         if ( dchute2 != dsenha2 && dchute2 != dchute1 && dchute2 != dcerto1 && dchute2 != dcerto3 && dchute2 != dcerto4 && dchute2 != dcerto5 ) {
-                 if ( dchute2 == dsenha1 || dchute2 == dsenha3 || dchute2 == dsenha4 || dchute2 == dsenha5 ) {
+            if ( dchute2 == dsenha1 || dchute2 == dsenha3 || dchute2 == dsenha4 || dchute2 == dsenha5 ) {
                  printf("Segundo digito em posicao incorreta.\n");
                  }
         }
         if (dchute3 != dsenha3 && dchute3 != dchute2 && dchute3 != dchute1 && dchute3 != dcerto2 && dchute3 != dcerto1 && dchute3 != dcerto4 && dchute3 != dcerto5){
-                 if ( dchute3 == dsenha1 || dchute3 == dsenha2 || dchute3 == dsenha4 || dchute3 == dsenha5 ) {
+             if ( dchute3 == dsenha1 || dchute3 == dsenha2 || dchute3 == dsenha4 || dchute3 == dsenha5 ) {
                  printf("Terceiro digito em posicao incorreta.\n");
                  }
         }
         if (dchute4 != dsenha4 && dchute4 != dchute1 && dchute4 != dchute2 && dchute4 != dchute3 && dchute4 != dcerto2 && dchute4 != dcerto3 && dchute4 != dcerto1 && dchute4 != dcerto5) {
-                 if ( dchute4 == dsenha1 || dchute4 == dsenha3 || dchute4 == dsenha2 || dchute4 == dsenha5 ) {
+             if ( dchute4 == dsenha1 || dchute4 == dsenha3 || dchute4 == dsenha2 || dchute4 == dsenha5 ) {
                  printf("Quarto digito em posicao incorreta.\n");
                  }
         }
         if (dchute5 != dsenha5 && dchute5 != dchute1 && dchute5 != dchute2 && dchute5 != dchute3 && dchute5 != dchute4 && dchute5 != dcerto2 && dchute5 != dcerto3 && dchute5 != dcerto4 && dchute5 != dcerto1){
-                 if ( dchute5 == dsenha1 || dchute5 == dsenha2 || dchute5 == dsenha3 || dchute5 == dsenha4 ) {
+              if ( dchute5 == dsenha1 || dchute5 == dsenha2 || dchute5 == dsenha3 || dchute5 == dsenha4 ) {
                  printf("\nQuinto digito em posicao incorreta.\n");
                  }
         }
